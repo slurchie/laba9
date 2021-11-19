@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bigrush", "bigrush\bigrush.csproj", "{912E4DCE-6CC3-4951-B1BB-3308D27E2BBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metodichka", "metodichka\metodichka.csproj", "{779E62BF-5DCF-4DBE-96E1-07FB66432035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912E4DCE-6CC3-4951-B1BB-3308D27E2BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912E4DCE-6CC3-4951-B1BB-3308D27E2BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912E4DCE-6CC3-4951-B1BB-3308D27E2BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912E4DCE-6CC3-4951-B1BB-3308D27E2BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779E62BF-5DCF-4DBE-96E1-07FB66432035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779E62BF-5DCF-4DBE-96E1-07FB66432035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779E62BF-5DCF-4DBE-96E1-07FB66432035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779E62BF-5DCF-4DBE-96E1-07FB66432035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55E73755-64FD-4484-AA14-9E957A32EE17}
+	EndGlobalSection
+EndGlobal
