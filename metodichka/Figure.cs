@@ -9,7 +9,7 @@ namespace metodichka
      abstract class Figure
     {
         public string Colour { get; set; }
-        public bool Visual { get; set; } = true;
+        public bool Visual { get; set; }
         abstract public void MoveHorz(double delta);
         abstract public void MoveVert(double delta);
         abstract public void Display();

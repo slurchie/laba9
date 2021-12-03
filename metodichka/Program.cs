@@ -26,7 +26,28 @@ namespace metodichka
             rectangle.MoveVert(-7);
             Console.WriteLine("Point: ");
             point.Display();
-            
+
+            //10.1
+            string nn = "Матан @5%";
+            ACipher mm = new ACipher();
+            nn = mm.Encode(nn);
+            Console.WriteLine(nn);
+            nn = mm.Decode(nn);
+            Console.WriteLine(nn);
+            BCipher ll = new BCipher();
+            nn = ll.Encode(nn);
+            Console.WriteLine(nn);
+            nn = ll.Decode(nn);
+            Console.WriteLine(nn);
+            //char A = 'а';
+            //char b = 'я';
+            //char v = 'А';
+            //char n = 'Я';
+            //Console.WriteLine((int)A);
+            //Console.WriteLine((int)b);
+            //Console.WriteLine((int)v);
+            //Console.WriteLine((int)n);
+
         }
     }
 }

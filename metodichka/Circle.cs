@@ -23,8 +23,7 @@ namespace metodichka
             Console.WriteLine($"Radius = {Radius}");
             base.Display();
         }
-        public double GetSquare()
-           
+        public double GetSquare()           
         {
             return Math.PI * Radius * Radius;
         }
